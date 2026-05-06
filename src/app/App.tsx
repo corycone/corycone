@@ -565,12 +565,12 @@ export default function App() {
             <div className="rounded-sm overflow-hidden border border-border bg-muted aspect-[16/9]">
               <ImageWithFallback
                 src={familyPhoto}
-                alt="Cory and his family — Cory, his wife, and their son, all wearing sunglasses"
+                alt="My wife, son and me"
                 className="w-full h-full object-cover"
               />
             </div>
             <p className="font-['IBM_Plex_Mono',monospace] text-xs text-muted-foreground mt-3 tracking-wider">
-              Cory &amp; his family
+              My wife, son and me
             </p>
           </div>
 
