@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Figma Make reference files (not needed for the site)
+guidelines/
+ATTRIBUTIONS.md
+default_shadcn_theme.css
+src/imports/pasted_text/
+src/imports/image.png
+src/imports/1000020636.jpg
+
+# Lockfiles are fine to commit, but ignore if you want
+# pnpm-lock.yaml
