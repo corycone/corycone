@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import { ExternalLink, Youtube, Menu, X, ChevronRight, Instagram, Linkedin, Mail } from "lucide-react";
 import { ImageWithFallback } from "@/app/components/ImageWithFallback";
-import familyPhoto from "@/imports/FamilyPic.jpeg";
+import familyPhoto from "@/imports/FamilyPic.jpg";
 import datavizDadImage from "@/imports/Artboard_1.png";
-import improvTeamPhoto from "@/imports/WholeTeam.png";
+import improvTeamPhoto from "@/imports/WholeTeam.jpg";
 
 type Section = "dataviz" | "horror" | "improv" | "about";
 
