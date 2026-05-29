@@ -379,11 +379,10 @@ export default function App() {
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div>
             <p className="text-muted-foreground text-lg leading-relaxed font-light mb-6">
-              Short, data-driven stories that find the surprising, the strange, and the human in real datasets.
-              The DataViz Dad channel turns numbers into narratives.
+              Short, data-driven visual stories alongside longer vlogs about making things, telling stories, and talking through the creative process.
             </p>
             <p className="text-muted-foreground leading-relaxed font-light mb-10">
-              The channel also includes the occasional dataviz tutorial.
+              The channel started as dataviz tutorials and has grown into something broader about creativity and storytelling.
             </p>
             <a
               href="https://www.youtube.com/@DataVizDad"
