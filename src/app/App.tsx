@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import { ExternalLink, Youtube, Menu, X, ChevronRight, Instagram, Linkedin, Mail } from "lucide-react";
 import { ImageWithFallback } from "@/app/components/ImageWithFallback";
 import familyPhoto from "@/imports/FamilyPic.jpg";
-import datavizDadImage from "@/imports/Artboard_1.png";
 import improvTeamPhoto from "@/imports/WholeTeam.jpg";
 
 type Section = "dataviz" | "horror" | "improv" | "about";
@@ -373,44 +372,26 @@ export default function App() {
           <span className="font-['IBM_Plex_Mono',monospace] text-xs tracking-[0.2em] text-[#00d4b8] uppercase">
             01
           </span>
-          <h2 className="font-['DM_Serif_Display',serif] text-4xl md:text-5xl">DataViz</h2>
+          <h2 className="font-['DM_Serif_Display',serif] text-4xl md:text-5xl">DataViz/YouTube</h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-start">
-          <div>
-            <p className="text-muted-foreground text-lg leading-relaxed font-light mb-6">
-              Short, data-driven visual stories alongside longer vlogs about making things, telling stories, and talking through the creative process.
-            </p>
-            <p className="text-muted-foreground leading-relaxed font-light mb-10">
-              The channel started as dataviz tutorials and has grown into something broader about creativity and storytelling.
-            </p>
-            <a
-              href="https://www.youtube.com/@DataVizDad"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-[#00d4b8]/10 border border-[#00d4b8]/20 text-[#00d4b8] px-6 py-3 rounded-sm text-sm font-medium tracking-wide hover:bg-[#00d4b8]/20 transition-colors"
-            >
-              <Youtube size={16} />
-              DataViz Dad on YouTube
-              <ExternalLink size={12} className="opacity-60" />
-            </a>
-          </div>
-
-          {/* YouTube card */}
-          <div className="relative group">
-            <a
-              href="https://www.youtube.com/@DataVizDad"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block aspect-video bg-[#0a0f0f] rounded-sm overflow-hidden border border-border relative"
-            >
-              <img
-                src={datavizDadImage}
-                alt="DataViz Dad - Short, surprising stories from real data"
-                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-              />
-            </a>
-          </div>
+        <div className="max-w-2xl">
+          <p className="text-muted-foreground text-lg leading-relaxed font-light mb-6">
+            Short, data-driven visual stories alongside longer vlogs about making things, telling stories, and talking through the creative process.
+          </p>
+          <p className="text-muted-foreground leading-relaxed font-light mb-10">
+            The channel started as dataviz tutorials and has grown into something broader about creativity and storytelling. Previously known as DataViz Dad.
+          </p>
+          <a
+            href="https://www.youtube.com/@corycone"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-[#00d4b8]/10 border border-[#00d4b8]/20 text-[#00d4b8] px-6 py-3 rounded-sm text-sm font-medium tracking-wide hover:bg-[#00d4b8]/20 transition-colors"
+          >
+            <Youtube size={16} />
+            Cory Cone on YouTube
+            <ExternalLink size={12} className="opacity-60" />
+          </a>
         </div>
       </section>
 
